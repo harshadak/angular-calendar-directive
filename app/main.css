@@ -1,1 +1,47 @@
 /* your css code goes here */
+
+html {
+    position: relative;
+    min-height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    width: 75%;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1rem auto;
+    text-align: center;
+}
+h1 {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}
+.dropdown {
+    width: 60%;
+}
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.calendar {
+    margin-top: 5rem;
+}
+.day {
+    width: 14%;
+    height: 70px;
+    border: 1px solid #CCC;
+    float: left;
+    position: relative;
+}
+.day.previous-or-next-month {
+    background-color: #e4e4e4;
+}
+.day.highlight-current-date {
+    background-color: #ffff80;
+}
+.day.header {
+    max-height: 40px;
+    font-weight: bold;
+}
