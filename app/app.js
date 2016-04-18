@@ -7,7 +7,7 @@ angular.module('calendarDemoApp', [])
         controller: function controller($scope, $element, $attrs) {
 
             // set intial state
-            var date = new Date();
+            var date = new(Date);
             var currentMonth = date.getMonth();
             var currentYear = date.getFullYear();
 
